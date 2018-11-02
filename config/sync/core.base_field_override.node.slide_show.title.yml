@@ -1,0 +1,18 @@
+uuid: 083a471d-44d7-4d40-a735-72198e69225e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.slide_show
+id: node.slide_show.title
+field_name: title
+entity_type: node
+bundle: slide_show
+label: Заголовок
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

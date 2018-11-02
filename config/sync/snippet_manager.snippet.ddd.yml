@@ -1,0 +1,41 @@
+uuid: e0d16998-ef1a-4d1a-9527-2ea43500623b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+id: ddd
+label: ddd
+page:
+  status: false
+  title: ''
+  path: ''
+  theme: ''
+  display_variant: ''
+  access:
+    type: all
+    permission: ''
+    role: {  }
+block:
+  status: false
+  name: ''
+display_variant:
+  status: false
+  admin_label: ''
+layout:
+  status: false
+  label: null
+  default_region: null
+template:
+  value: null
+  format: full_html
+css:
+  status: false
+  preprocess: true
+  value: null
+  group: component
+js:
+  status: false
+  preprocess: true
+  value: null
+variables: {  }

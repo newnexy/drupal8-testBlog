@@ -1,0 +1,37 @@
+uuid: 3acad904-2cf7-43b0-8f3d-2e4f14bbd1b2
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:text_1_for_front:125d2527-72d4-4ed4-a2fb-8c8394d5d1b2'
+  module:
+    - block_content
+    - block_visibility_groups
+    - system
+  theme:
+    - mytheme
+id: best_blog_post
+theme: mytheme
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:125d2527-72d4-4ed4-a2fb-8c8394d5d1b2'
+settings:
+  id: 'block_content:125d2527-72d4-4ed4-a2fb-8c8394d5d1b2'
+  label: 'Главное за неделю'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,35 @@
+uuid: fd7371b5-5267-40ce-afc4-45017448c094
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - photoswipe
+_core:
+  default_config_hash: jOwnt_yq6AKAfqU6f0xKnxEkFQ2eTPJWxrk3WMLbL68
+id: media.image.default
+targetEntityType: media
+bundle: image
+mode: default
+content:
+  field_media_image:
+    label: visually_hidden
+    settings:
+      photoswipe_node_style_first: ''
+      photoswipe_node_style: ''
+      photoswipe_image_style: ''
+      photoswipe_caption: title
+      photoswipe_view_mode: default
+      photoswipe_reference_image_field: ''
+    third_party_settings: {  }
+    type: photoswipe_field_formatter
+    weight: 1
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  thumbnail: true
+  uid: true

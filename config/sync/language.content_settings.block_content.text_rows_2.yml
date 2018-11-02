@@ -1,0 +1,11 @@
+uuid: 1dbb4162-01a7-4519-9340-b52f802e712e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.text_rows_2
+id: block_content.text_rows_2
+target_entity_type_id: block_content
+target_bundle: text_rows_2
+default_langcode: site_default
+language_alterable: false

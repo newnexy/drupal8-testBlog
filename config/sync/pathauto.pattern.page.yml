@@ -1,0 +1,22 @@
+uuid: 77913d05-8165-4cb8-adfc-5e0297cebe2e
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: page
+label: Страница
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  a1c0148f-b4b1-4c44-af09-c231c92e7073:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a1c0148f-b4b1-4c44-af09-c231c92e7073
+selection_logic: and
+weight: -5
+relationships: {  }

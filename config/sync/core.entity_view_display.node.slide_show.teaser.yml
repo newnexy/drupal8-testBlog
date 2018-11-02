@@ -1,0 +1,24 @@
+uuid: 9f34ae95-9d82-4203-b986-d401a9ef360c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.slide_show.field_images
+    - node.type.slide_show
+  module:
+    - user
+id: node.slide_show.teaser
+targetEntityType: node
+bundle: slide_show
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_images: true
+  langcode: true
+  previous_next: true

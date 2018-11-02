@@ -1,0 +1,37 @@
+uuid: d7010558-76f4-4e45-a501-03ec054be733
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:text_rows_2:3a6f28ad-d215-4dae-b9f2-123bce922bfd'
+  module:
+    - block_content
+    - block_visibility_groups
+    - system
+  theme:
+    - mytheme
+id: text_2_for_front
+theme: mytheme
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:3a6f28ad-d215-4dae-b9f2-123bce922bfd'
+settings:
+  id: 'block_content:3a6f28ad-d215-4dae-b9f2-123bce922bfd'
+  label: 'Два текста'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

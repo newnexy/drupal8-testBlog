@@ -1,0 +1,21 @@
+uuid: e4a0279a-9b6a-4e3d-9ac9-755615cd134e
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:8f6b960a-10fc-422a-8157-520e5cdccf8a'
+  module:
+    - dlog_paragraphs
+id: remote_video
+label: 'Удаленное видео'
+icon_uuid: 8f6b960a-10fc-422a-8157-520e5cdccf8a
+description: ''
+behavior_plugins:
+  dlog_paragraphs_remote_video:
+    enabled: true
+  dlog_paragraphs_paragraph_title:
+    enabled: true
+  dlog_paragraphs_paragraph_class:
+    enabled: true
+  dlog_paragraphs_paragraph_style:
+    enabled: true

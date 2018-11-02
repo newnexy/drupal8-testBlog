@@ -1,0 +1,30 @@
+uuid: fa1bfded-036c-48e6-845d-7b1d3e178470
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.one_image
+    - field.field.block_content.one_image.field_image
+  module:
+    - media_library
+id: block_content.one_image.default
+targetEntityType: block_content
+bundle: one_image
+mode: default
+content:
+  field_image:
+    type: media_library_widget
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

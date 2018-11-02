@@ -1,0 +1,22 @@
+uuid: 94a4b8a4-0164-463f-8a5d-0b2bd6ddeff9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blogtheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: blogtheme_content
+theme: blogtheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Содержимое страницы'
+  provider: system
+  label_display: '0'
+visibility: {  }

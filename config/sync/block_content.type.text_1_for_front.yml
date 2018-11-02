@@ -1,0 +1,8 @@
+uuid: c141592e-34ff-4ad1-9b02-0371299bee0d
+langcode: ru
+status: true
+dependencies: {  }
+id: text_1_for_front
+label: 'Одиночный текст '
+revision: 0
+description: ''

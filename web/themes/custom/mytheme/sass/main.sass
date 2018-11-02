@@ -1,0 +1,66 @@
+*, *:before, *:after
+	box-sizing: border-box
+
+input[type="search"]
+   -webkit-appearance: none
+
+.search
+    -webkit-appearance: none
+
+input[type="search"] 
+    -webkit-appearance: textfield
+
+.app
+	display: grid
+	grid-template-columns: 1fr
+	grid-template-areas: "header" "content" "footer"
+
+@import "../css/normalize.css"
+
+/*------------------------- Regions ------------------------*/
+
+@import "regions/header"
+@import "regions/content"
+@import "regions/footer"
+
+/*------------------------- Node ----------------------------*/
+
+@import "node/page/node-page-full"
+
+@import "node/blog-article/node-blog-article-teaser"
+@import "node/blog-article/node-blog-article-full"
+
+/*------------------------- Blocks ----------------------------*/
+
+@import "blocks/text-2-for-front"
+@import "blocks/block-top-front-page-image"
+@import "blocks/block-one-text"
+@import "blocks/block-best-blog-post"
+
+/*------------------------- Media ----------------------------*/
+
+@import "media/media-remote-video"
+
+/*------------------------- Form ----------------------------*/
+
+@import "form/contact-message-feedback-form"
+@import "form/user-login-form"
+
+/*------------------------- Views ----------------------------*/
+
+@import "node/views/articles"
+@import "node/views/view-frontpage-page"
+@import "node/views/view-blog-articles-in-tag"
+
+/*------------------------- Paragraph -----------------------*/
+
+@import "paragraph/paragraph-slyles"
+@import "paragraph/image-and-text"
+@import "paragraph/paragraph-gallery"
+@import "paragraph/remote-video"
+@import "paragraph/remote-video-gallery"
+
+/*------------------------- Other ---------------------------*/
+@import "fonts"
+@import "libs"
+@import "media"

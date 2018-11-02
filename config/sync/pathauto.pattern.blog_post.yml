@@ -1,0 +1,22 @@
+uuid: a1a7f6c0-b78e-4c20-9a93-a2ccd849c35f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: blog_post
+label: 'Запись в блог'
+type: 'canonical_entities:node'
+pattern: 'blog/[node:title]'
+selection_criteria:
+  fc3e758f-0534-4f90-b84e-346677d7ca55:
+    id: node_type
+    bundles:
+      blog_article: blog_article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: fc3e758f-0534-4f90-b84e-346677d7ca55
+selection_logic: and
+weight: -5
+relationships: {  }

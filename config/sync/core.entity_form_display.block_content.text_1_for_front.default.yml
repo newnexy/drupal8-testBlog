@@ -1,0 +1,42 @@
+uuid: 78a8dd1a-b20d-4433-8be6-8d7e24454057
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.text_1_for_front
+    - field.field.block_content.text_1_for_front.field_one_text
+  module:
+    - paragraphs
+id: block_content.text_1_for_front.default
+targetEntityType: block_content
+bundle: text_1_for_front
+mode: default
+content:
+  field_one_text:
+    type: paragraphs
+    weight: 1
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: text
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  langcode: true

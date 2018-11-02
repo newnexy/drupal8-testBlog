@@ -1,0 +1,28 @@
+uuid: 206bf479-ba5f-4213-a7e3-0143241c610b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.slide_show.field_images
+    - node.type.slide_show
+  module:
+    - media
+    - user
+id: node.slide_show.default
+targetEntityType: node
+bundle: slide_show
+mode: default
+content:
+  field_images:
+    type: media_thumbnail
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
+  links: true
+  previous_next: true

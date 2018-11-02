@@ -1,0 +1,15 @@
+uuid: 7c57345f-0ab5-42fc-8baa-484c4d25134a
+langcode: ru
+status: true
+dependencies: {  }
+name: one_image_page
+label: 'Блок с одиночным изображ.'
+effects:
+  b6b4cdc3-415d-4f5c-97e3-f2cd4e477e52:
+    uuid: b6b4cdc3-415d-4f5c-97e3-f2cd4e477e52
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1240
+      height: 540
+      anchor: center-center

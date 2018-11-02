@@ -1,0 +1,8 @@
+uuid: d491141d-8cb8-4693-b137-a761e56ea25f
+langcode: ru
+status: true
+dependencies: {  }
+id: one_image
+label: 'Одиночное изображение '
+revision: 0
+description: ''

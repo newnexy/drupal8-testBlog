@@ -1,0 +1,21 @@
+uuid: 15701173-5c0b-4248-8a1c-e6e05afb2061
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:5b51781a-623e-40a0-a908-36186aeecb27'
+  module:
+    - dlog_paragraphs
+id: remote_video_gallery
+label: 'Галерея удаленных видео'
+icon_uuid: 5b51781a-623e-40a0-a908-36186aeecb27
+description: ''
+behavior_plugins:
+  dlog_paragraphs_remote_video_gallery:
+    enabled: true
+  dlog_paragraphs_paragraph_title:
+    enabled: true
+  dlog_paragraphs_paragraph_class:
+    enabled: true
+  dlog_paragraphs_paragraph_style:
+    enabled: true

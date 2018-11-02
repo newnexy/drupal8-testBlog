@@ -1,0 +1,25 @@
+uuid: fccd5d6d-7213-4022-9100-1733d6afa65c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - blogtheme
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: blogtheme_branding
+theme: blogtheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

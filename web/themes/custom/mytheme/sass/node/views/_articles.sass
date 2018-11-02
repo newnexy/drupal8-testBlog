@@ -1,0 +1,27 @@
+.view-blog-articles-page
+	&__content
+		display: grid
+		grid-template-columns: 1fr 1fr 1fr
+		grid-gap: 30px
+
+	.pager
+		margin-top: 20px
+
+		&__items
+			text-align: center
+
+		&__item
+			margin-right: 8px
+			display: inline-block
+			a
+				color: #000
+
+		.is-active
+			padding: 8px
+			border: 1px solid #000
+			border-radius: 50px
+
+			&:last-child
+				margin-right: 0
+	
+		

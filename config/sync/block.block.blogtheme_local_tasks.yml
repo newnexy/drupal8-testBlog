@@ -1,0 +1,22 @@
+uuid: ce214c1b-77a9-401b-a866-6645ccbdfa0f
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - blogtheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: blogtheme_local_tasks
+theme: blogtheme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

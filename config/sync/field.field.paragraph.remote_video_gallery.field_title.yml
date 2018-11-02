@@ -1,0 +1,19 @@
+uuid: b9df4b3a-9da8-4098-a06d-0ef9a1b843d3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.remote_video_gallery
+id: paragraph.remote_video_gallery.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: remote_video_gallery
+label: Заголовок
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

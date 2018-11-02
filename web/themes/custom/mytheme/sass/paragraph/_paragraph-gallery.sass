@@ -1,0 +1,24 @@
+.paragraph-gallery
+	&__field-images
+		&-item
+			img
+				width: 100%
+				height: auto
+
+	&--images-per-row-2
+		.paragraph-gallery__field-images
+			display: grid
+			grid-template-columns: 1fr 1fr
+			grid-gap: 10px
+
+	&--images-per-row-3
+		.paragraph-gallery__field-images
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr
+			grid-gap: 10px
+
+	&--images-per-row-4
+		.paragraph-gallery__field-images
+			display: grid
+			grid-template-columns: 1fr 1fr 1fr 1fr
+			grid-gap: 10px

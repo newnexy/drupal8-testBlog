@@ -1,0 +1,48 @@
+uuid: af3cf050-acc9-4cab-8b26-d2fe4f9ff50a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.text_rows_2
+    - field.field.block_content.text_rows_2.field_body
+  module:
+    - paragraphs
+id: block_content.text_rows_2.default
+targetEntityType: block_content
+bundle: text_rows_2
+mode: default
+content:
+  field_body:
+    type: paragraphs
+    weight: 26
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: closed
+      closed_mode: summary
+      autocollapse: none
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: text
+      features:
+        duplicate: duplicate
+        collapse_edit_all: collapse_edit_all
+        add_above: '0'
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

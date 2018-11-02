@@ -1,0 +1,16 @@
+{% extends 'region.html.twig' %}
+
+{% import '@mytheme/include/social-links.html.twig' as social_links %}
+
+{% block region %}
+	<div class="footer">
+		{{ page.footer }}
+		<div class="{{bem_block}}-content">
+			{{ social_links.links('footer-social') }}
+			{{ drupal_block('system_menu_block:footer', { label_display: false }) }}	
+			<div class="{{bem_block}}-copyright">
+				&copy; {{ 'now'|date('Y') }} <strong>My favorite Blog</strong>
+			</div>
+		</div>
+	</div>	
+{% endblock %}

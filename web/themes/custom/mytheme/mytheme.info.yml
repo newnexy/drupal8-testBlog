@@ -1,0 +1,18 @@
+# Theme base information.
+screenshot: dude.jpg
+name: My Custom Theme
+type: theme
+base theme: glisseo
+description: 'Drupal8 theme'
+package: Glisseo
+core: 8.x
+
+libraries:
+  - mytheme/custom
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
+
+

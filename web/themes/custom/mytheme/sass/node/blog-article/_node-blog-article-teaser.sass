@@ -1,0 +1,58 @@
+.node-blog-article-teaser
+	font-family: 'RobotoSlab-Light'
+
+	&__field-image
+		img
+			border-radius: 4px
+			overflow: hidden
+			box-shadow: 0 5px 5px rgba(#000, 0.1)
+			margin-bottom: 10px
+			width: 100%
+			height: auto		
+							
+	&__title
+		margin: 0
+		font-size: 20px
+		font-weight: bold
+		a
+			color: #333333
+
+			&:hover
+				transition: 0.5s
+				color: rgba(66,134,244,1)
+
+	&__field-tags
+		font-size: 15px
+		font-weight: bold
+		&-item
+			padding: 3px 5px
+			border-radius: 5px
+			margin-top: 10px
+			margin-right: 8px
+			background-color: #373B40
+			display: inline-block
+			&:last-child
+				margin-right: 0
+			a
+				color: #fff
+			&:hover
+				transition: 0.5s
+				background-color: rgba(66,134,244, 1)
+
+	&__meta
+		margin-top: 10px
+		font-size: 15px
+		color: #757575
+		position: relative
+
+	&__created
+		&::after
+			position: absolute
+			content: ''
+			width: 25px
+			height: 100%
+			background-image: url(../img/svg/calendar.svg)
+			background-repeat: no-repeat
+			background-size: 25px 100%
+			background-position: center
+

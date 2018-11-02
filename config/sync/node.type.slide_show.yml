@@ -1,0 +1,30 @@
+uuid: 475c05dd-4a7c-433c-bd64-a93be6e30aff
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+    - scheduler
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+  scheduler:
+    expand_fieldset: when_required
+    fields_display_mode: vertical_tab
+    publish_enable: false
+    publish_past_date: error
+    publish_required: false
+    publish_revision: false
+    publish_touch: false
+    unpublish_enable: false
+    unpublish_required: false
+    unpublish_revision: false
+name: Слайд-шоу
+type: slide_show
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

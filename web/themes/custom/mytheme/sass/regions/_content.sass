@@ -1,0 +1,58 @@
+.app__content
+	display: grid
+	grid-area: content
+	height: auto
+	padding: 50px
+	grid-template-columns: minmax(auto, 1290px)
+	justify-self: center
+
+	img
+		max-width: 100%
+		height: auto
+
+	.region-content
+		overflow: hidden
+		padding: 25px
+		box-shadow: 0 0 15px 5px rgba(0,0,0,0.05)
+		z-index: 20
+		position: relative
+		background-color: #fff
+		margin-top: -100px
+		display: grid
+		grid-gap: 25px
+	
+		.block-mytheme				
+
+			// ADMIN BUTTON
+
+			&-local-tasks
+				
+				&__content
+					text-align: center
+					.tabs
+						&__item
+							display: inline-block
+	
+						&__menu-item-link
+							display: block
+							line-height: 1.5em
+							padding: 4px 10px
+							color: #000
+							&:hover
+								color: #757575
+
+						.is-active
+							color: #000
+							border: 1px solid #000
+							border-radius: 30px
+							&:hover
+								border: 1px solid #757575
+								color: #757575
+
+		.messages--status
+			padding: 15px
+
+
+
+
+

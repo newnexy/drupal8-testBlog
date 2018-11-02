@@ -1,0 +1,100 @@
+.footer
+	display: grid
+	grid-area: footer
+	height: 200px
+	.region-footer-content
+		display: grid
+		grid-template-columns: 1fr
+		grid-gap: 30px
+		padding: 0 8%
+
+		/*------------------------- Footer-social -----------------------*/
+
+		.footer-social
+			border-top: 1px solid #4e5354
+			padding-top: 50px
+			display: grid
+			justify-content: center
+
+			&__items
+				display: grid
+				grid-template-columns: repeat(4, 40px)
+				grid-gap: 50px
+				justify-self: center
+
+
+			&__item			
+				display: inline-block
+				width: 40px
+				height: 40px
+				text-align: center
+
+
+			&__link
+				display: block
+				height: 100%
+				justify-self: center
+
+				&--git
+					background-image: url(../img/svg-social/git.svg)
+
+				&--twitter
+					background-image: url(../img/svg-social/twitter.svg)
+
+				&--facebook
+					background-image: url(../img/svg-social/facebook.svg)
+
+				&--instagram
+					background-image: url(../img/svg-social/instagram.svg)
+
+
+		/*------------------------- Footer-menu -----------------------*/
+
+		.block-footer
+			display: grid
+			justify-self: center
+			align-self: center
+
+			&__menu
+				text-align: center
+			
+				&-item
+					justify-self: center
+					display: inline-block
+					font-size: 15px
+					color: #4e5354
+					text-transform: uppercase
+					letter-spacing: 0.7px
+					padding: 10px 10px 8px 10px
+					text-align: center
+
+					&-link
+						outline: none
+						cursor: pointer
+						color: #4e5354
+						&:hover
+							color: #000
+
+
+					&--active-trail
+						border: 1px solid #4e5354
+						border-radius: 40px
+						&:hover
+							border: 1px solid #000
+
+		/*------------------------- Footer-copyright -----------------------*/
+		
+		.region-footer-copyright
+			margin-bottom: 50px
+			display: grid
+			justify-self: center
+			align-self: center
+			grid-gap: 10px
+			grid-template-columns: minmax(50px, auto) minmax(90px, auto)
+			text-transform: uppercase
+			letter-spacing: 0.7px
+			color: #4e5354
+			strong
+				font-family: "Josefin Sans"
+				line-height: 1.3em
+

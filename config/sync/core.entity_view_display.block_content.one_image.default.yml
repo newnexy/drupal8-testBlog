@@ -1,0 +1,26 @@
+uuid: ca1f728c-0a97-4b94-aef3-0f14b343fefd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.one_image
+    - field.field.block_content.one_image.field_image
+    - image.style.one_image_page
+  module:
+    - media
+id: block_content.one_image.default
+targetEntityType: block_content
+bundle: one_image
+mode: default
+content:
+  field_image:
+    type: media_thumbnail
+    weight: 0
+    label: hidden
+    settings:
+      image_style: one_image_page
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,30 @@
+uuid: e71bb56c-3345-482c-8bb1-ece70770759e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.slide_show
+  module:
+    - block_visibility_groups
+    - views
+  theme:
+    - mytheme
+id: views_block__slide_show_block_1
+theme: mytheme
+region: header
+weight: -10
+provider: null
+plugin: 'views_block:slide_show-block_1'
+settings:
+  id: 'views_block:slide_show-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

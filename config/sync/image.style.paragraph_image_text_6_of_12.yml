@@ -1,0 +1,15 @@
+uuid: be0bb7af-8fbe-4d98-9b3a-f472d85b4ac8
+langcode: ru
+status: true
+dependencies: {  }
+name: paragraph_image_text_6_of_12
+label: 'Paragraph image text 6 of 12 '
+effects:
+  f6ab400f-8b54-423e-aa8d-f6c64d784a4a:
+    uuid: f6ab400f-8b54-423e-aa8d-f6c64d784a4a
+    id: image_scale
+    weight: 1
+    data:
+      width: 645
+      height: null
+      upscale: false

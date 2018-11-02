@@ -1,0 +1,28 @@
+uuid: 07d18769-f022-4b0e-a5d3-afe6a801e7be
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.one_image
+    - field.storage.block_content.field_image
+    - media.type.image
+id: block_content.one_image.field_image
+field_name: field_image
+entity_type: block_content
+bundle: one_image
+label: Изображение
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

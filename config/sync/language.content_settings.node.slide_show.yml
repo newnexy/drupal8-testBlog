@@ -1,0 +1,11 @@
+uuid: ff038148-f65e-4467-9727-fd218856c889
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.slide_show
+id: node.slide_show
+target_entity_type_id: node
+target_bundle: slide_show
+default_langcode: site_default
+language_alterable: false

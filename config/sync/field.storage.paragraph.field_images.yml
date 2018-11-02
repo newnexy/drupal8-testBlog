@@ -1,0 +1,20 @@
+uuid: a79a279e-8708-42c6-8024-5841b8977f38
+langcode: ru
+status: true
+dependencies:
+  module:
+    - media
+    - paragraphs
+id: paragraph.field_images
+field_name: field_images
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

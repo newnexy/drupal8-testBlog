@@ -1,0 +1,27 @@
+uuid: 3f5b6aaa-9bcc-4755-befa-fd5a45807af4
+langcode: ru
+status: false
+dependencies:
+  module:
+    - block_visibility_groups
+  theme:
+    - mytheme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: mytheme_page_title
+theme: mytheme
+region: header
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  provider: core
+  label_display: '0'
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }

@@ -1,0 +1,37 @@
+uuid: cbce0f12-c69d-452a-837e-d3035acae3ab
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:one_image:6f095fb6-7e0c-48a9-bf6f-ec89e68e6c56'
+  module:
+    - block_content
+    - block_visibility_groups
+    - system
+  theme:
+    - mytheme
+id: top_front_page_image
+theme: mytheme
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:6f095fb6-7e0c-48a9-bf6f-ec89e68e6c56'
+settings:
+  id: 'block_content:6f095fb6-7e0c-48a9-bf6f-ec89e68e6c56'
+  label: 'Изображение на главной странице'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+    context_mapping: {  }
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,15 @@
+uuid: 2e6bb0c8-a506-4d46-b5bc-484c4a732d4d
+langcode: ru
+status: true
+dependencies: {  }
+name: big_image
+label: 'Big Image'
+effects:
+  5bc13077-1d1e-431c-bd77-e522f3e2cda6:
+    uuid: 5bc13077-1d1e-431c-bd77-e522f3e2cda6
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false

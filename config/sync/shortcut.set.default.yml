@@ -1,0 +1,8 @@
+uuid: bff29ced-a1e9-4fd8-9f51-d55e2864e7a1
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: 'По умолчанию'

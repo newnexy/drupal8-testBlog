@@ -1,0 +1,20 @@
+{% extends 'region.html.twig' %}
+
+{% block region %}
+  <header{{ attributes.addClass(classes) }}>
+    <div class="{{ bem_block }}__container">
+      <div class="{{ bem_block }}__container-nav-search-and-logo-block">
+        {{ drupal_block('system_branding_block', {
+          use_site_logo: false,
+          use_site_slogan: false
+        }) }}
+        <div class="wrapper-block-main">
+          {{ drupal_block('system_menu_block:main', { label_display: false }) }}
+          <span class="search-button-header">.</span>
+        </div>
+        {{ drupal_form('Drupal\\search\\Form\\SearchBlockForm') }}
+      </div>
+      {{ block('content') }}
+    </div>			
+  </header>
+{% endblock %}

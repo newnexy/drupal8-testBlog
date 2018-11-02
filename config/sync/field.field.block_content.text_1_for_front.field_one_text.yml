@@ -1,0 +1,46 @@
+uuid: b854b2e3-4fbb-4269-a973-73989a91a13e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.text_1_for_front
+    - field.storage.block_content.field_one_text
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: block_content.text_1_for_front.field_one_text
+field_name: field_one_text
+entity_type: block_content
+bundle: text_1_for_front
+label: Содержимое
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      text: text
+    target_bundles_drag_drop:
+      gallery:
+        weight: 7
+        enabled: false
+      image:
+        weight: 8
+        enabled: false
+      image_and_text:
+        weight: 9
+        enabled: false
+      remote_video:
+        weight: 10
+        enabled: false
+      remote_video_gallery:
+        weight: 11
+        enabled: false
+      text:
+        enabled: true
+        weight: 12
+field_type: entity_reference_revisions

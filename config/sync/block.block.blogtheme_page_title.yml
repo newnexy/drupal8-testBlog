@@ -1,0 +1,20 @@
+uuid: 986a305f-1bc0-4110-8a86-e3887d3b1c72
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - blogtheme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: blogtheme_page_title
+theme: blogtheme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  provider: core
+  label_display: '0'
+visibility: {  }

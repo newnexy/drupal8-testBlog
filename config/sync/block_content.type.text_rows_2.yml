@@ -1,0 +1,8 @@
+uuid: 2298e98b-48f5-4f24-b828-d1b3e27f75ac
+langcode: ru
+status: true
+dependencies: {  }
+id: text_rows_2
+label: 'Две колонки с текстом'
+revision: 0
+description: ''

@@ -1,0 +1,19 @@
+uuid: 26aba8c0-0024-428e-805e-87be7f945945
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:53aed9c0-0ecf-4b3e-a435-4afabc632423'
+  module:
+    - dlog_paragraphs
+id: text
+label: Текст
+icon_uuid: 53aed9c0-0ecf-4b3e-a435-4afabc632423
+description: ''
+behavior_plugins:
+  dlog_paragraphs_paragraph_title:
+    enabled: true
+  dlog_paragraphs_paragraph_class:
+    enabled: true
+  dlog_paragraphs_paragraph_style:
+    enabled: true

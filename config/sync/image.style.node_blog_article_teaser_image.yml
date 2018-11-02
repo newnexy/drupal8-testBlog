@@ -1,0 +1,15 @@
+uuid: 7da4241b-513f-4811-b6a3-b2e1c5cb4867
+langcode: ru
+status: true
+dependencies: {  }
+name: node_blog_article_teaser_image
+label: 'Node Blog article Teaser Image'
+effects:
+  d8ce2405-7d4c-4b5c-8f33-ff1a390a47aa:
+    uuid: d8ce2405-7d4c-4b5c-8f33-ff1a390a47aa
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 393
+      height: 262
+      anchor: center-center

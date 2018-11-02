@@ -1,0 +1,21 @@
+uuid: e2edd4bf-2e1f-4978-b3d5-80b58ba7702e
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'file:file:8879dcc8-fbc3-4c76-9c1f-2f872a322fdb'
+  module:
+    - dlog_paragraphs
+id: gallery
+label: 'Галерея Изображений'
+icon_uuid: 8879dcc8-fbc3-4c76-9c1f-2f872a322fdb
+description: ''
+behavior_plugins:
+  dlog_paragraphs_paragraph_class:
+    enabled: true
+  dlog_paragraphs_paragraph_style:
+    enabled: true
+  dlog_paragraphs_paragraph_title:
+    enabled: true
+  dlog_paragraphs_gallery:
+    enabled: true

@@ -1,0 +1,14 @@
+uuid: 46bba880-748e-44ed-863b-20b103dc40a4
+name: 'My favorite Blog'
+mail: avocode5nexy@gmail.com
+slogan: 'Story About Us'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: ru
+default_langcode: ru
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

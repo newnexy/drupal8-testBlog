@@ -1,0 +1,10 @@
+custom:
+  css:
+    theme:
+      css/main.css: {}
+      css/libs.css: {}
+  js:
+    js/common.js: {}
+    js/libs.min.js: {}
+  dependencies:
+    - core/jquery
